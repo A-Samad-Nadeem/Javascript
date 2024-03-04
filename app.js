@@ -1,28 +1,14 @@
-var myname ="abdulsamad";
-alert(myname);
-var myage = 18; 
-alert(myage);
-var number = 654; 
-alert(number);
-var mycourse ="Web and Mobile And App Development";
-alert(mycourse);
+let number1 =+prompt("Enter First Number")
+let number2 =+prompt("Enter Second Number")
 
-var pizza ="pizza";
-alert(pizza);
-var pizz ="pizz";
-alert(pizz);
-var piz ="piz";
-alert(piz);
-var pi ="pi";
-alert(pi);
-var p ="p";
-alert(p);
-var email ="myemailissamadnadeem555"
-alert(email);
-var book =" I  am learning JS from A smarter way to learn JavaScript"
-alert(book);
+let sum=number1+number2;
+document.write("addition of number=" ,sum,"<br/>")
+let sub=number1-number2;
+document.write("Subtraction of number= ",sub,"<br/>")
+let multiplication=number1*number2;
+document.write("Product of number= ",multiplication,"<br/>")
+let div=number1/number2;
+document.write("division of number= ",div,"<br/>")
+let reminder=number1%number2;
+document.write("reminder of number= ",reminder,"<br/>")
 
-var display ="Yah! I can write HTML through JS"
-document.write(display);
-var symbol ="“▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬”"
-alert(symbol);
