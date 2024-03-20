@@ -1,42 +1,66 @@
-// question no 1
+document.write("The Value Of a=10" ,"<br>")
 
-// let variable=("samad");
-// let oneVariable=("hello world");
-// let variable_two=("salam");
+let number=10;
+document.write("Result:","</br>","The ++Number Is " ,++number);
 
-// document.write(variable,oneVariable,variable_two);
+let num2=11
+document.write("</br>","Result:" ,"</br>", "The Number++ Is " ,num2++);
+let num3=11
+document.write("</br>","Result:" ,"</br>", "The --Number Is " , --num3);
+let num4=11
+document.write("</br>","Result:" ,"</br>", "The Number-- Is " , num4--,"</br>");
 
-// // Question no2
-// // 5 Legal variable
-// // =================
-
-// let legal=("hello");
-// let legal1=("world");
-// let $=("hi");
-// let _=("greetings");
-// let Saylani_it_Training=("Sir Sadiq");
-
-// // 5 Illegal Variables
-// // ===================
+document.write("QUESTION NO 2","</br>")
 
 
-// let 123=("hi");
+let a=2;
+let b=1;
 
-// let *=("salam");
-
-// let sam of he=("Salute");
-
-// let userAlert=("greetings");
-
-// let -samad=("samad");
- 
-// Question no 3
-document.write("<h1>Rule Of Naming JS Variables</h1>");
+let result= --a - --b + ++b +b--;
+document.write(result);
 
 
-document.write("<P>variable names can only contain, alphabets,$,_ </P>")
-document.write("<P>variable names must begin with $,_ or a letter</P>")
-document.write("<P>variable names are case sensitive</P>")
-document.write("<P>variable names can not be JS reserved keywords</P>")
+
+let input=prompt("Please Enter Your Name")
+
+document.write("<h1>Have A Good Day </h1>" , input ,"</br>")
+
+document.write("<h1>The Table Calculator</h1>")
+let table= +prompt("Enter The table Number",5)
+
+document.write(table + "x" + "1" + "=" + table*1 + "</br>")
+document.write(table + "x" + "2" + "=" + table*2 + "</br>")
+document.write(table + "x" + "3" + "=" + table*3 + "</br>")
+document.write(table + "x" + "4" + "=" + table*4 + "</br>")
+document.write(table + "x" + "5" + "=" + table*5 + "</br>")
+// document.write(table + "x" + "6" + "=" + table*6 + "</br>")
+// document.write(table + "x" + "7" + "=" + table*7 + "</br>")
+// document.write(table + "x" + "8" + "=" + table*8 + "</br>")
+// document.write(table + "x" + "9" + "=" + table*9 + "</br>")
+// document.write(table + "x" + "10" + "=" + table*10 +"</br>")
+
+
+let subjects=prompt("Enter First Subject Name")
+let subject2=prompt("Enter Second Subject Name")
+let subject3=prompt("Enter Third Subject Name")
+
+let tmarks=100;
+let tmarks2=100;
+let tmarks3=100;
+
+let obtain= +prompt("Please Enter Your First Subject Marks ")
+let obtain2= +prompt("Please Enter Your Second Subject Marks ")
+let obtain3= +prompt("Please Enter Your Third Subject Marks ")
+
+
+let percentage1 = obtain/tmarks*100 
+let percentage2 = obtain2/tmarks2*100 
+let percentage3 = obtain3/tmarks3*100 
+
+
+document.write("<h1>Subjects</h1>",subjects,"</br>",subject2,"</br>",subject3)
+document.write("<h1>Total Marks</h1>",tmarks,"</br>",tmarks2,"</br>",tmarks3,"</br>",tmarks+tmarks2+tmarks3)
+document.write("<h1>Subjects</h1>",obtain,"</br>",obtain2,"</br>",obtain3,"</br>",obtain+obtain2+obtain3)
+document.write("<h1>Subjects</h1>",percentage1,"</br>",percentage2,"</br>",percentage3,"</br>",(percentage1+percentage2+percentage3)/3,"%" )
 
 
