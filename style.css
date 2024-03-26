@@ -1,47 +1,6 @@
-h1{
-    position: absolute;bottom: 750px;left: 380px;
+.header{
+    font-size: 40px;
+    background-color: antiquewhite;
     text-align: center;
-    font-size: 70px;
-    color: chartreuse;
-    font-family: fantasy;
-}
-h3{
-    position: absolute;bottom: 550px;left: 8px;
-   text-align: center;
-   font-size: 25px;
-   color: wheat;
-}
-img{
-    background-image: url(./assets/images/th.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 1250px;
-    height: 850px;
-}
-.first{
-    position: absolute;left: 380px;bottom: 200px;
-    border: 1px solid black;
-    font-size: 25px;
-    background-color: aqua;
-    border-radius: 10px;
-}
-.second{
-    position: absolute;left: 650px;bottom: 200px;
-    border: 1px solid black;
-    font-size: 25px;
-    background-color: aqua;
-    border-radius: 10px;
-}
-.reset{
-    position: absolute;left: 850px;bottom: 200px;
-    border: 1px solid black;
-    font-size: 25px;
-    background-color: aqua;
-    border-radius: 10px;
-}
-.display{
-    font-size: 100px;
-    position: absolute;bottom: 300px;left:650px;
-    color: brown;
-    
+    word-spacing: 5px;
 }
